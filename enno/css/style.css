@@ -33,7 +33,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color:#36CBD4;	
+  color:#72CDF4;	
 }
 
 hr {
@@ -64,7 +64,7 @@ a.navbar-brand span {
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 0;
-  background-color:#109173;
+  background-color:#005581;
 }
 .nav-tabs {
   border-bottom:0; 
@@ -84,12 +84,12 @@ a.navbar-brand span {
   color:#fff;
 }
 .nav-tabs > li > a:hover {
-	background-color: #36CBD4;
+	background-color: #72CDF4;
 }
 .nav-tabs > li.active > a {
 	color: #fff;
   cursor: default;
-  background-color:#36CBD4;
+  background-color:#72CDF4;
   border: 0;
   border-bottom-color: transparent;
 
@@ -97,7 +97,7 @@ a.navbar-brand span {
 .nav-tabs > li.active > a:hover {
 	color: #fff;
 	border: 0;
-	background-color: #36CBD4;
+	background-color: #72CDF4;
 	cursor: pointer;
 }
 
@@ -130,7 +130,7 @@ a.navbar-brand span {
 }
 
 .icon {
-	color:#36CBD4;
+	color:#72CDF4;
 	margin-top:30px;
 	margin-bottom:30px;
 }
@@ -139,7 +139,7 @@ a.navbar-brand span {
 	margin-bottom:30px;
 }
 .ficon i {
-	color:#36CBD4;	
+	color:#72CDF4;	
 }
 .ficon a {
 	color:#333;
@@ -173,7 +173,7 @@ a.navbar-brand span {
 .btn:hover {
   color: #fff;
   text-decoration: none;
-  background-color: #36CBD4;
+  background-color: #72CDF4;
   transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -188,7 +188,7 @@ a.navbar-brand span {
 
 .btn-primary {
   padding: 8px 20px;
-  background: #36CBD4;
+  background: #72CDF4;
   color: #fff;
   border:none;
   margin-top: 10px;
@@ -196,7 +196,7 @@ a.navbar-brand span {
 
 .btn-primary:hover, 
 .btn-primary:focus{
-  background: #36CBD4;
+  background: #72CDF4;
   outline: none;
   box-shadow: none;
 } 
@@ -257,7 +257,7 @@ a.navbar-brand span {
 	margin-bottom:30px;
 }
 .blog .ficon a:hover {
-	color:#36CBD4;
+	color:#72CDF4;
 }
 
 .form-search .form-control {
@@ -273,7 +273,7 @@ a.navbar-brand span {
 	margin-right:30px;
 }
 .media-body .ficon a:hover {
-	color:#36CBD4;
+	color:#72CDF4;
 }
 .media-body h4 {
 	color:#000;
@@ -309,7 +309,7 @@ a.navbar-brand span {
 }
 .panel-default > .panel-heading {
   color: #fff;
-  background-color: #36CBD4;
+  background-color: #72CDF4;
   border-color: #eee;
 }
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
@@ -357,7 +357,7 @@ a.navbar-brand span {
 	margin-bottom:50px;
 }
 .popular-tags h5 {
-	color:#36CBD4;
+	color:#72CDF4;
 	margin-bottom:30px;
 	text-align:center;
 }
@@ -380,7 +380,7 @@ a.navbar-brand span {
 .popular-tags ul.tags li a:hover {
 	text-decoration:none;
 	color:#fff;
-	background-color:#36CBD4;
+	background-color:#72CDF4;
 }
 
 /* --- Portfolio --- */
@@ -473,10 +473,10 @@ footer {
 	text-align:center;
 	margin-top: 40px;
 	margin-bottom: 40px;
-	color: #109173;	
+	color: #005581;	
 }
 .f-about a h1 span {
-	color: #109173;	
+	color: #005581;	
 }
 .f-about p {
   font-size: 14px;
@@ -498,7 +498,7 @@ footer {
 }
 
 .l-posts li a:hover  {
-  color: #109173;
+  color: #005581;
 }
 
 .f-contact p {
@@ -517,17 +517,17 @@ footer {
 }
 
 .f-contact a:hover p{
-  color: #109173;
+  color: #005581;
 }
 .last-div {
 	margin-top:40px;
-    background: #109173;
+    background: #005581;
     padding: 20px 0;
     position: relative;
 }
 
 .copyright {
-    font-size: 14px;
+    font-size: 15px;
     color: #fff;
     margin: 0;   
     font-weight: 300;
@@ -538,7 +538,27 @@ footer {
 }
 .copyright a:hover {
     text-decoration: underline;
-    color: #36CBD4;
+    color: #72CDF4;
+}
+
+.ocf {
+    font-size: 11px;
+    color: #fff;
+    margin: 0;   
+    font-weight: 300;
+    float: left;
+}
+.ocf a{
+    color: #fff;
+}
+.ocf a:hover {
+    text-decoration: underline;
+    color: #72CDF4;
+}
+
+.space{
+  display: inline-block;
+  width: 10px;
 }
 
 ul.social-network {
@@ -558,7 +578,7 @@ ul.social-network li a {
 	color:#6EE5A1;	
 }
 ul.social-network li a:hover {	
-	color:#36CBD4;	
+	color:#72CDF4;	
 }
 
 a.scrollup{
@@ -578,6 +598,6 @@ a.scrollup{
 }
 a.scrollup:hover{
 	opacity:1;
-	background-color:#36CBD4;
+	background-color:#72CDF4;
 	color:#fff;;	
 }
