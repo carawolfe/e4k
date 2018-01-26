@@ -14,7 +14,7 @@ body {
 	background-color:#fff;
 }
 
-hi,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6 {
 	color:#333;
 	line-height:1.1em;
 }
@@ -127,6 +127,7 @@ a.navbar-brand span {
 
 .box {
 	text-align:center;
+  
 }
 
 .icon {
@@ -279,6 +280,7 @@ a.navbar-brand span {
 	color:#000;
 
 }
+
 .media-list {
   padding-left: 0;
   list-style: none;
@@ -555,6 +557,10 @@ footer {
     text-decoration: underline;
     color: #72CDF4;
 }
+h4 a{
+    
+    color: #005581;
+}
 
 .space{
   display: inline-block;
@@ -601,3 +607,25 @@ a.scrollup:hover{
 	background-color:#72CDF4;
 	color:#fff;;	
 }
+
+.sponsors {
+  margin: 20px;
+  width: 300px;
+  height: auto;
+}
+
+.pastSponsors {
+  margin: 20px;
+  width: 200px;
+  height: auto;
+}
+
+.headshot {
+  width: 80px;
+  border-radius: 40px;
+
+}
+
+
+
+
