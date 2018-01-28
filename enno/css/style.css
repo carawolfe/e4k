@@ -12,6 +12,8 @@ body {
 	line-height:1.6em;
 	color:#333;
 	background-color:#fff;
+	margin:0px;
+    padding: 0px;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -456,9 +458,28 @@ textarea#message{
 /*=========================
   Footer
  ================= */
+.wrap {
+  height: auto;
+  margin: 0 auto -60px; /* footer height + space */
+  min-height: 90%;
+  padding: 0 0 60px; /* footer height + space */
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+html, body {
+	height: 100%;
+}
 
 footer {
   background: #fff;
+  height: 60px;  /* footer height */
+  padding-top: 20px;
+  display: block;
+  margin-top: 20px; /* space between content and footer */
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
 }
 
 .inner-footer  ul li,a  {
