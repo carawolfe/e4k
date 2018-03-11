@@ -24,6 +24,7 @@
 .bx-wrapper img {
 	max-width: 100%;
 	display: block;
+	width: 100%;
 }
 
 /** THEME
@@ -88,7 +89,7 @@
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
-	
+
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
